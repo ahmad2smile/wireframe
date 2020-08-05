@@ -2,17 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
-    sans-serif;
-  color: black;
-  background: #272730;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
 html,
 body,
 #root {
@@ -20,4 +9,25 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #272727;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#root {
+  overflow: auto;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: black;
+  -webkit-font-smoothing: antialiased;
 }

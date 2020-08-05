@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
-import './App.css'
-import { Canvas } from 'react-three-fiber'
+import React from "react"
+import { Canvas, useThree } from "react-three-fiber"
+import { useGesture } from "react-use-gesture"
+import { useSpring, a } from "react-spring/three"
+import Line from "./components/Line"
 
-import Line  from './components/Line'
 
 function App() {
   return (
     <div className="App">
       <Canvas>
-      <Line coords={[[0, -10, 0], [0, 1, 0]]} ></Line>
+        <Line coords={[[0,0,0]]} />
       </Canvas>
     </div>
   )

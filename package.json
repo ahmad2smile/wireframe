@@ -1,21 +1,44 @@
 {
-  "name": "wireframe-canvas",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
+  "name": "wireframe",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@pika/react": "^16.13.1",
-    "@pika/react-dom": "^16.13.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
     "drei": "^0.0.69",
-    "react-three-fiber": "^4.2.18",
-    "three": "^0.119.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "react-spring": "^9.0.0-rc.3",
+    "react-three-fiber": "4.1.1",
+    "react-use-gesture": "https://pkg.csb.dev/react-spring/react-use-gesture/commit/ab5981e1/react-use-gesture",
+    "three": "^0.119.1",
+    "typescript": "~3.7.2"
   },
-  "devDependencies": {
-    "@types/react": "^16.9.44",
-    "@types/react-dom": "^16.9.8",
-    "vite": "^1.0.0-rc.1",
-    "vite-plugin-react": "^3.0.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
