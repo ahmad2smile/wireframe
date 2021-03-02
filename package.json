@@ -17,7 +17,7 @@
     "react-spring": "^9.0.0-rc.3",
     "react-three-fiber": "4.1.1",
     "react-use-gesture": "https://pkg.csb.dev/react-spring/react-use-gesture/commit/ab5981e1/react-use-gesture",
-    "three": "^0.119.1",
+    "three": "^0.125.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
